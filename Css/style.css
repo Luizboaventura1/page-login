@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: "Open Sans", sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(35, 36, 39);
+}
+header h1 {
+  color: #dbdbdb;
+}
+header form {
+  width: 100%;
+  max-width: 380px;
+  height: 300px;
+  background-color: rgb(44, 47, 49);
+}
+header form input {
+  outline: none;
+  border: none;
+  background-color: rgb(66, 70, 72);
+}
+header form button {
+  outline: none;
+  border: none;
+  background-color: #7855c3;
+  transition: 0.3s;
+}
+header form button:hover {
+  background-color: #8f72cd;
+}
+header form a {
+  color: rgb(154, 154, 154);
+}
+header form a:hover {
+  text-decoration: underline !important;
+}
+
+/*# sourceMappingURL=style.css.map */
